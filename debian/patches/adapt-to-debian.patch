@@ -1,0 +1,28 @@
+Description: Debianize the package
+Author: Thomas Goirand <zigo@debian.org>
+Forwarded: not-needed
+Last-Update: 2014-08-11
+
+--- python-xstatic-d3-3.4.9.orig/xstatic/pkg/d3/__init__.py
++++ python-xstatic-d3-3.4.9/xstatic/pkg/d3/__init__.py
+@@ -11,7 +11,7 @@ NAME = __name__.split('.')[-1] # package
+                                # please use a all-lowercase valid python
+                                # package name
+ 
+-VERSION = '3.1.6' # version of the packaged files, please use the upstream
++VERSION = '3.4.9' # version of the packaged files, please use the upstream
+                   # version number
+ BUILD = '2' # our package build number, so we can release new builds
+              # with fixes for xstatic stuff.
+@@ -34,9 +34,9 @@ HOMEPAGE = 'http://d3js.org/'
+ LICENSE = '(same as %s)' % DISPLAY_NAME
+ 
+ from os.path import join, dirname
+-BASE_DIR = join(dirname(__file__), 'data')
++#BASE_DIR = join(dirname(__file__), 'data')
+ # linux package maintainers just can point to their file locations like this:
+-#BASE_DIR = '/usr/share/javascript/d3'
++BASE_DIR = '/usr/share/javascript/d3'
+ 
+ LOCATIONS = {
+     # CDN locations (if no public CDN exists, use an empty dict)
