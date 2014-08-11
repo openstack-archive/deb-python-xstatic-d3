@@ -1,5 +1,5 @@
 python-xstatic-d3 (3.4.9-1) unstable; urgency=medium
 
-  * Initial release. (Closes: #XXXXXX)
+  * Initial release.
 
  -- Thomas Goirand <zigo@debian.org>  Tue, 12 Aug 2014 00:29:00 +0800
