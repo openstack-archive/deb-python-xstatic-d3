@@ -1,5 +1,11 @@
+python-xstatic-d3 (3.4.9-2) unstable; urgency=medium
+
+  * Updated upstream VCS URLs.
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 14 Aug 2014 00:06:17 +0800
+
 python-xstatic-d3 (3.4.9-1) unstable; urgency=medium
 
-  * Initial release. (Closes: #XXXXXX)
+  * Initial release. (Closes: #757839)
 
  -- Thomas Goirand <zigo@debian.org>  Tue, 12 Aug 2014 00:29:00 +0800
