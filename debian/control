@@ -17,8 +17,8 @@ Homepage: https://github.com/stackforge/xstatic-d3
 Package: python-xstatic-d3
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libjs-d3 (<< 3.4.10),
-         libjs-d3 (>= 3.4.9),
+Depends: libjs-d3 (<< 3.4.12),
+         libjs-d3 (>= 3.4.11),
          python-xstatic,
          ${misc:Depends},
          ${python:Depends}
@@ -49,8 +49,8 @@ Description: D3 JS XStatic support - Python 2.x
 Package: python3-xstatic-d3
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libjs-d3 (<< 3.4.10),
-         libjs-d3 (>= 3.4.9),
+Depends: libjs-d3 (<< 3.4.12),
+         libjs-d3 (>= 3.4.11),
          python3-xstatic,
          ${misc:Depends},
          ${python3:Depends}
