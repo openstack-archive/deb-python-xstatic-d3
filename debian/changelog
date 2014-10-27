@@ -1,3 +1,9 @@
+python-xstatic-d3 (3.4.11-2) unstable; urgency=medium
+
+  * Relaxed version for libjs-d3.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 27 Oct 2014 07:53:04 +0000
+
 python-xstatic-d3 (3.4.11-1) unstable; urgency=medium
 
   * New package to match the new version of libjs-d3. (Closes: #761109).
