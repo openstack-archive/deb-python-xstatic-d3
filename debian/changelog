@@ -1,3 +1,9 @@
+python-xstatic-d3 (3.4.11-4) UNRELEASED; urgency=medium
+
+  * Fixed VCS URLs (https).
+
+ -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:53:59 +0100
+
 python-xstatic-d3 (3.4.11-3) unstable; urgency=medium
 
   * Relaxed again the libjs-d3 dependency.
