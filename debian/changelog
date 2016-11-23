@@ -5,6 +5,7 @@ python-xstatic-d3 (3.4.11-4) UNRELEASED; urgency=medium
   * d/copyright: Changed source URL to new one
   * d/s/options: extend-diff-ignore of .gitreview
   * d/control: Using OpenStack's Gerrit as VCS URLs.
+  * Bumped debhelper compat version to 10
 
  -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:53:59 +0100
 
